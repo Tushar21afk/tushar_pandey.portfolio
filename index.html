@@ -54,7 +54,7 @@
                 gap between customers and companies by helping them in <strong>decision-making</strong>
                 for their products.
             </p>
-            <hr/>
+            <hr />
             <div id="education">
                 <h3 align="center">Educational Qualification</h3>
                 <h4>Master of Business Administration - IIM Shillong | 2025</h4>
@@ -79,12 +79,13 @@
                 </ul>
 
             </div>
-            <hr/>
+            <hr />
             <div id="work-ex">
                 <h3 align="center">Work Experience</h3>
                 <h4>Vedanta Limited</h4>
                 <ul class="nav-links">
-                    <li>Lead Planner: Business Transformation <span style="margin-left: 58%;">April’ 23– Mar’24</span></li>
+                    <li>Lead Planner: Business Transformation <span style="margin-left: 58%;">April’ 23– Mar’24</span>
+                    </li>
                     <p>
                         Led supply chain optimization, digital transformation, and automation initiatives to enhance
                         efficiency, cost savings, and operational scalability. Spearheaded LEAN implementation and SCADA
@@ -92,14 +93,16 @@
                         by ₹1.2 Cr/month.
                     </p>
 
-                    <li> Project Leader: CAPEX Projects (Business Strategy) <span style="margin-left: 50%;">Nov’21 – Mar’23</span></li>
+                    <li> Project Leader: CAPEX Projects (Business Strategy) <span style="margin-left: 50%;">Nov’21 –
+                            Mar’23</span></li>
                     <p>
                         Led and managed CAPEX projects worth ₹184 Cr., driving sustainable business development, process
                         optimization, and ESG compliance. Spearheaded SCADA implementation, generator commissioning (₹24
                         Cr.), and emission reduction initiatives, enhancing efficiency, compliance, and revenue growth.
                     </p>
 
-                    <li> Process Improvement Engineer: Operations <span style="margin-left: 55%;">Sept’ 17– Oct’ 21</span></li>
+                    <li> Process Improvement Engineer: Operations <span
+                            style="margin-left: 55%;">Sept’ 17– Oct’ 21</span></li>
                     <p>Delivered Six Sigma, IoT, and RPA-based automation projects to optimize power consumption,
                         process design, and equipment uptime, achieving ₹10.8 Cr. annual savings and 100% Plant Load
                         Factor (PLF). Led 50+ LEAN initiatives with cross-functional teams, reducing downtime by 18%
@@ -142,14 +145,46 @@
                         <i class="fas fa-tools icon-color"></i>
                         <h3>Google Analytics</h3>
                     </div>
-                    <!-- <div class="skill">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Data Governance</h3>
-                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+    <section id="certificates" class="certificates">
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <h2>Certificates&nbsp;&nbsp;<span><i class="fas fa-angle-down icon-color"></i></span></h2>
+                </button>
+                <div class="accordion-content">
+                    <ul class="item-list">
+                        <li><a href="certificates/ScrumAlliance_CSPO_Certificate.pdf" target="_blank" download><i
+                                    class="fas fa-file-alt"></i>
+                                Certified Scrum Product Owner - By Scrum Alliance</a></li>
+                        <li><a href="certificates/Generative AI Productivity Skills with Microsoft and LinkedIn.pdf"
+                                target="_blank" download><i class="fas fa-file-alt"></i> Gen AI for Productivity and AI
+                                for Business - Microsoft &
+                                LinkedIn</a></li>
+                        <li><a href="certificates/Product Strategy.pdf" target="_blank" download><i
+                                    class="fas fa-file-alt"></i> Strategy in Product
+                                Management - Product School</a></li>
+                        <li><a href="certificates/AI Proficiency.pdf" target="_blank" download><i
+                                    class="fas fa-file-alt"></i> AI Proficiency
+                                Certificate - AI Academy</a></li>
+                        <li><a href="certificates/Power BI Advanced.png" target="_blank" download><i
+                                    class="fas fa-file-alt"></i> Advanced Power BI -
+                                IIM Shillong</a></li>
+                        <li><a href="certificates/PM_PS_AI.pdf" target="_blank" download><i
+                                    class="fas fa-file-alt"></i> AI Usability in Product
+                                Management - Product School</a></li>
+                        <li><a href="certificates/Product Analytics.pdf" target="_blank" download><i
+                                    class="fas fa-file-alt"></i> Product Analytics -
+                                Product School</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="get-in-touch" class="get-in-touch">
         <div class="container">
             <h2>Get in Touch</h2>
@@ -175,6 +210,23 @@
             <p>© 2025 Tushar Pandey. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        const header = document.querySelector('.accordion-header');
+        const content = document.querySelector('.accordion-content');
+        const icon = header.querySelector('i');
+
+        header.addEventListener('click', () => {
+            content.classList.toggle('active');
+            icon.classList.toggle('rotate');
+        });
+    </script>
+
+    <style>
+        .rotate {
+            transform: rotate(180deg);
+        }
+    </style>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
         integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
