@@ -196,6 +196,73 @@ header .btn:hover {
     margin: 10px 0;
 }
 
+/************Certificates****************************/
+
+.certificates {
+    background: #1e1e2f;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 40px;
+  }
+
+.accordion-item {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .accordion-header {
+    color: white;
+    width: 100%;
+    background-color: #2a2a40;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    /* transition: background-color 0.3s; */ 
+  }
+  
+  .accordion-header:hover {
+    background-color: #2a2a40;
+  }
+  
+  .accordion-header i {
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    transition: max-height 0.4s ease;
+  }
+  
+  .accordion-content.active {
+    padding: 1rem 1.5rem;
+    max-height: 1000px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item-list li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .item-list a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .item-list a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+  }
+
 /* ============ Get in Touch Section ============ */
 .get-in-touch {
     padding: 60px 0;
